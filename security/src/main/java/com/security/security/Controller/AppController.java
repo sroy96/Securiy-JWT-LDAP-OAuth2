@@ -13,14 +13,15 @@ public class AppController {
     public String all(){
         return "For ALL";
     }
+
     @GetMapping("/user")
     public String forUser(){
-        return " USER login ";
+        return " USER data ";
     }
 
     @GetMapping("/admin")
     public String forAdmin(){
-        return "admin";
+        return "ADMIN data";
     }
 
 }

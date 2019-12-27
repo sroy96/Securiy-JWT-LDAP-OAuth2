@@ -1,12 +1,18 @@
 INSERT INTO users (username, password, enabled)
     values ('user',
-        'pass',
+        'userpass',
         true
     );
 
+INSERT INTO users(username,password,enabled)
+    values ('Saurav',
+      'lock',
+      true
+      );
+
     INSERT INTO users (username, password, enabled)
     values ('admin',
-        'pass',
+        'adminpass',
         true
     );
 

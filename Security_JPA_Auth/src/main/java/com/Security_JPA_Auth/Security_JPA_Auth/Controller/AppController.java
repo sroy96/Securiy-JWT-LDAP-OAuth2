@@ -10,16 +10,16 @@ public class AppController {
 
     @GetMapping("/")
     public String all(){
-        return "For ALL";
+        return "WELCOME";
     }
     @GetMapping("/user")
     public String forUser(){
-        return " USER login ";
+        return " WELCOME USER ";
     }
 
     @GetMapping("/admin")
     public String forAdmin(){
-        return "admin";
+        return "WELCOME ADMIN";
     }
 
 }
